@@ -1,3 +1,9 @@
+# Stack: ReactJS
+
+it's a card that was patterned from sight of material-ui's card.
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
