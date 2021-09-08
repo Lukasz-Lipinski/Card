@@ -1,0 +1,39 @@
+.img {
+  width: auto;
+  height: 25px;
+  padding: 10px;
+  margin-inline: 10px;
+  opacity: 1;
+  transition: 0.5s;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.button {
+  background-color: transparent;
+  border: 0;
+}
+
+.button .img {
+  width: auto;
+  height: 25px;
+}
+
+.img:hover {
+  opacity: 0.5;
+  transition: 0.5s;
+}
+
+.leftContainer {
+  display: flex;
+  width: 50%;
+}
+
+.rightContainer {
+  display: flex;
+  justify-content: flex-end;
+  width: 50%;
+}

@@ -1,0 +1,11 @@
+.card {
+  border-radius: 12;
+  background-color: white;
+  border: 0.5px solid #ecf0f1;
+  width: 400px;
+  padding: 6px;
+}
+
+.descStyle {
+  margin-top: 15px;
+}

@@ -1,0 +1,17 @@
+.container {
+  display: flex;
+  padding: 8;
+}
+
+.img {
+  width: auto;
+  height: 25px;
+  padding: 8px;
+  opacity: 1;
+  transition: 0.5s;
+}
+
+.img:hover {
+  opacity: 0.5;
+  transition: 0.5s;
+}
