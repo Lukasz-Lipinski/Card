@@ -20,11 +20,11 @@ const logo = {
   width: "auto"
 };
 
-export default function Logo(props) {
+export default function Logo({ title }) {
   return (
     <div style={logo}>
       <Img style={img} path={ImgLogo} />
-      <Description style={p} text={props.title} />
+      <Description style={p} text={title} />
     </div>
   );
 }

@@ -1,4 +1,12 @@
 .App {
+  display: flex;
   font-family: sans-serif;
   text-align: center;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
 }

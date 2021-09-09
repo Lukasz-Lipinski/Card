@@ -13,11 +13,11 @@ const container = {
   marginBlock: 15
 };
 
-export default function Content(props) {
+export default function Content({ intro }) {
   return (
     <div style={container}>
       <Img path={src} />
-      <Description style={p} text={props.intro} />
+      <Description style={p} text={intro} />
     </div>
   );
 }

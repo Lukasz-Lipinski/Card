@@ -3,10 +3,10 @@ import { Img } from "../Atoms";
 
 import Styles from "./styles/header.module.css";
 
-export default function Header(props) {
+export default function Header({ title }) {
   return (
     <div className={Styles.container}>
-      <Logo title={props.title} />
+      <Logo title={title} />
       <Img path={Menu} className={Styles.img} />
     </div>
   );
