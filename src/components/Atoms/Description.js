@@ -1,5 +1,5 @@
 export default function Description({ text, style }) {
   return (
-    <p style={style}>{text}</p>y
+    <p style={style}>{text}</p>
   );
 }
