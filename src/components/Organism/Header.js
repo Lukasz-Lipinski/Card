@@ -1,13 +1,13 @@
 import { Logo, Menu } from "../Molecule";
 import { Img } from "../Atoms";
 
-import Styles from "./styles/header.module.css";
+import "./styles/header.scss";
 
 export default function Header({ title }) {
   return (
-    <div className={Styles.container}>
+    <div className="header">
       <Logo title={title} />
-      <Img path={Menu} className={Styles.img} />
+      <Img path={Menu} className="header__img" />
     </div>
   );
 }

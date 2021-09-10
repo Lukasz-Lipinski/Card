@@ -1,20 +1,20 @@
 import { Img } from "../Atoms";
 import { Heart, Share, Arrow } from "../Molecule";
 
-import Styles from "./styles/footer.module.css";
+import "./styles/footer.scss";
 
 export default function Footer(props) {
   const { show } = props;
-  
+
   return (
-    <div className={Styles.container}>
-      <div className={Styles.leftContainer}>
-        <Img path={Heart} className={Styles.img} />
-        <Img path={Share} className={Styles.img} />
+    <div className="footer">
+      <div className="footer--leftImages">
+        <Img path={Heart} className="footer--leftImages__img" />
+        <Img path={Share} className="footer--leftImages__img" />
       </div>
-      <div className={Styles.rightContainer}>
-        <button className={Styles.button} onClick={show}>
-          <Img path={Arrow} className={Styles.img} />
+      <div className="footer--rightImages">
+        <button className="footer--rightImages--btn" onClick={show}>
+          <Img path={Arrow} className="footer--rightImages--btn__img" />
         </button>
       </div>
     </div>
